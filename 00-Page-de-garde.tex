@@ -1,0 +1,87 @@
+\documentclass[a4paper,12pt]{report}
+\usepackage[utf8]{inputenc}
+\usepackage{fontspec}
+\usepackage{xcolor,graphicx}
+\usepackage[top=0.6in,bottom=0.6in,right=1in,left=1in]{geometry}
+\graphicspath{{images/}{images_pfe/}}
+\newlength\figureheight
+\newlength\figurewidth
+\usepackage{polyglossia}
+\setmainlanguage{french}
+\setotherlanguage{arabic}
+\newfontfamily\arabicfont[Script=Arabic,Scale=1.1]{Scheherazade}
+
+\begin{document}
+\begin{titlepage}
+    \centering
+    {\small République Algérienne Démocratique et Populaire}\\
+    \begin{Arabic}
+    الجمهورية الجزائرية الديمقراطية الشعبية \\
+	\end{Arabic}
+    {\small Ministère de l'Enseignement Supérieur et de la Recherche Scientifique}\\
+        \begin{Arabic}
+        وزارة التعليم العالي و البحث العلمي \\
+	\end{Arabic}
+\rule{\linewidth}{0.3mm} \\[0.4cm]
+
+\begin{minipage}{5cm}
+	\begin{center}
+		\includegraphics[width=2.5cm]{Logo_umbb.png}
+	\end{center}
+\end{minipage}\hfill
+\begin{minipage}{10cm}
+	\begin{flushright}
+	\begin{Arabic}
+	جامعة امحمد بوقرة ببومرداس
+	\end{Arabic}\\
+	{\small Université Mhamed Bougara de Boumerdes}\\[0.1cm]
+
+	\end{flushright}
+\end{minipage}\hfill\\
+\vspace{20mm}
+{\large \bfseries Mémoire de fin d’études}\\[0.5cm]
+{\large Pour l'obtention du diplôme de licence en Informatique}\\[0.5cm]
+{\large \bfseries{Option : ISIL} \\ }
+\vspace{10mm}
+% Title
+\rule{\linewidth}{0.3mm} \\[0.4cm]
+{ \huge \bfseries ++++++++++++++ Le Titre +++++++++++++\\[0.4cm] }
+\rule{\linewidth}{0.3mm} \\[1cm]
+\vspace{10mm}
+
+% Author and supervisor
+\noindent
+\begin{minipage}{0.5\textwidth}
+    \vspace{-7mm}
+  \begin{flushleft} \large
+    \emph{Réalisé par :}\\
+    M. \textsc{xxxxx} xxxxxxxxxxxx \\[0.1cm] 
+    M. \textsc{xxxxxx} xxxxxxxxxxxxxx \\[0.1cm] 
+    M. \textsc{xxxxx} xxxxxxxxxxxxxx \\
+    
+  \end{flushleft}
+\end{minipage}
+\begin{minipage}{0.4\textwidth}
+  \begin{flushright} \large
+    \begin{flushleft} \large
+    \emph{Encadré par :} \\
+    M. \textsc{REZOUG} Abdellah  (UMBB)\\[0.1cm] 
+    \end{flushleft}
+
+  \end{flushright}
+\end{minipage}\\[1cm]
+
+{\large \textit{Soutenu le xx juin 2023, Devant le jury composé de : }}\\[0.5cm]
+
+\centering
+\begin{tabular}{lll}
+\large M. XXXXXXXX \textsc{XXXXXXXXXX} : & \large UMBB & \large - Président \\[0.1cm]
+\large M. XXXXXXXXXX \textsc{XXXXXXX} : & \large UMBB & \large - Rapporteur
+\end{tabular}
+
+\vspace{20mm}
+% Bottom of the page
+{\large Promotion : 2022/2023}
+
+\end{titlepage}
+\end{document}
